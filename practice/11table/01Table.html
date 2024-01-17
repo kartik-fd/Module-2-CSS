@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Table In CSS</title>
+
+    <style>
+        table, td, th{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            height: 500px;
+            text-align: center;
+        }
+         /* tr:nth-child(2n){  */
+        /* tr:nth-child(3n){ */
+            /* tr:nth-child(odd){ */
+            tr:nth-child(even){
+            background-color: teal;
+            color: khaki;
+        }
+        tr:nth-child(2n+1){
+            background-color: rgb(102, 0, 0);
+            color: khaki;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table In CSS</h1>
+    <hr>
+    <table>
+        <tr>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+            <td>CSS</td>
+        </tr>
+    </table>
+</body>
+</html>

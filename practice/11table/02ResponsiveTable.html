@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        table, th, td{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse:collapse ;
+            width: 1100px;
+            height: 1500px;
+            text-align: center;
+        }
+        th{
+            font-size: 40px;
+        }
+        td{
+            font-size: 30px;
+        }
+        th, td{
+            padding: 20px;
+        }
+        thead>tr{
+            background-color: rgb(77, 0, 0);
+            color: khaki;
+        }
+        tbody tr:nth-child(even){
+            background-color: rgb(62, 128, 0);
+            color: aliceblue;
+        }
+        tbody tr:nth-child(odd){
+            background-color: rgba(48, 0, 97, 0.671);
+            color: aliceblue;
+        }
+        .responsive-table{
+            width: 500px;
+            height: 500px;
+            border: 10px solid rgb(0, 100, 100);
+            margin: 0 auto;
+            overflow: hidden;
+            overflow: scroll;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Table</h1>
+    <hr>
+    <br><br>
+    <div class="responsive-table">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>MON</th>
+                    <th>TUE</th>
+                    <th>WED</th>
+                    <th>THU</th>
+                    <th>FRI</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>CSS</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
