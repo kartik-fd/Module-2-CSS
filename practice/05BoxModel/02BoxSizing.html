@@ -5,17 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Sizing </title>
 
-    <!-- Internal CSS  -->
+    
 
     <style>
-
-        /* Always give these value to universal Selector  */
-
-        /* *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        } */
 
         body{
             background-color: antiquewhite;
@@ -23,28 +15,25 @@
         div[class*='box']{
             background-color: rgb(44, 228, 7);
             color: aliceblue;
-            width: 300px;
-            height: 300px;
+            width: 400px;
+            height: 400px;
             margin: 0 auto;
             border: 10px solid black;
             padding: 30px;
         }
         .border-box{
             box-sizing: border-box;
-            /* Total width => width = 200px - padding (2*20 = 40px) - border (2*10 = 20px) => 140px */
-            /* Total Height => width = 200px - padding (2*20 = 40px) - border (2*10 = 20px) => 140px */
+            
         }
         .content-box{
             box-sizing: content-box;
-            /* Total width => width = 200px + padding (2*20 = 40px) + border (2*10 = 20px) => 260px */
-            /* Total Height => width = 200px + padding (2*20 = 40px) + border (2*10 = 20px) => 260px */
 
         }
     </style>
 </head>
 <body>
-    <div class="border-box">Border-box = 220px</div>
+    <div class="border-box">Border-box = 320px</div>
     <hr>
-    <div class="content-box">Content-box = 380px</div>
+    <div class="content-box">Content-box = 480px</div>
 </body>
 </html>

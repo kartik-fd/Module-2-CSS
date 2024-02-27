@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.main1{
+    padding-top: 30px;
+    background: url(../images/flower1.1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1380px 700px;
+   
+   
+}
+.nav{
+    background-color: rgb(66, 64, 64);
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 22px;
+}
+.main3{
+    display: flex;
+    flex-direction: row;
+}
+.content1{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content2{
+    width: 50%;
+    height: 500px;
+}
+.fh1{
+    width: 350px;
+    font-size: 35px;
+    margin-top: 90px;
+    margin-left: 90px;
+    color: rgb(66, 64, 64);
+}
+.sh2{
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+.para1{
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 16px;
+}
+.but{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 90px;
+    margin-top: 25px;
+    
+}
+#btn1{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    color: antiquewhite;
+    padding: 5px 10px;
+    font-size: 10px;
+    background-color: rgb(223, 141, 153);
+}
+#btn2{
+    border: none;
+    font-size: 18px;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(223, 141, 153);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px ;
+    font-size: 27px;
+    gap: 10px;
+}
+.pnav{
+    padding-top: 35px;
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.pro1{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.pro2{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.pro3{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    
+}
+.pro1 p{
+    width: 167px;
+    font-size: 15px;
+    text-align: center;
+}
+.pro2 p{
+    width: 167px;
+    font-size: 15px;
+    text-align: center;
+}
+.pro3 p{
+    width: 167px;
+    font-size: 15px;
+    text-align: center;
+}
+.products button{
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+.about-main{
+    width: 100%;
+    margin-top: 50px;
+    padding: 60px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #FBD1CB;
+
+}
+.female{
+    width: 50%;
+    background-size: 200px 100px;
+    text-align: center;
+}
+.female img{
+    width: 450px;
+    height: 550px;
+    border-radius: 30px;
+}
+.aboutus{
+    width: 50%;
+    padding: 100px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.aboutus h2{
+    font-size: 35px;
+}
+.aboutus p{
+    width: 350px;
+
+}
+.kp{
+    background-color: rgb(29, 29, 29);
+    color:rgb(223, 141, 153) ;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+
+.kp2   {
+    border: none;
+    background-color: #a3aa68;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 5px;
+}
+.lorem1{
+    width: 100%;
+    background: url(../images/flower2.2.png) no-repeat center/cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-block: 140px;
+    
+}
+.lorempara1{
+    width: 40%;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 25px;
+    padding: 90px;
+} 
+
+.lorempara1 h1{
+    font-size: 32px;
+}
+
+.flower2{
+    width: 60%;
+
+}
+.lorem2{
+    padding: 60px; 
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #FBD1CB;
+
+}
+.female2{
+    width: 50%;
+    background-size: 200px 100px;
+    text-align: center;
+}
+.female2 img{
+    width: 450px;
+    height: 490px;
+}
+.lorempara2{
+    width: 50%;
+    padding: 100px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.lorempara2 h2{
+    font-size: 35px;
+}
+.lorempara2 p{
+    width: 350px;
+
+}
+.loremipsum{
+    width: 100%;
+    padding-top: 35px;
+    background-color: #FBD1CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+   
+}
+.lorempara3{
+    text-align: center;
+    padding-block: 30px;  
+    width: 510px;
+    font-size:20px;
+}
+.lorempara3 h1{
+    font-size: 35px;
+}
+.female3{
+    background-color: white;
+    padding: 35px 115px 15px 50px;
+}
+.female3 img{
+    width: 500px;
+    border-radius: 30px;
+
+}
+
+.lorem4{
+    width: 100%;
+    background: url(../images/flower2.png) no-repeat center/cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-block: 140px;
+    
+}
+.lorempara4{
+    width: 500px;
+    display: flex;
+   flex-wrap: wrap;
+   
+    padding: 60px;
+    gap: 25px;
+}
+.lorempara4 h1{
+    font-size: 32px;
+}
+.flower4{
+    width: 60%;
+
+}
+.newsletter{
+    width: 100%;
+    background: url(../images/flower3.png) no-repeat center/cover;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-block: 100px;
+}
+.newsphoto{
+    width: 40%;
+    
+}
+.newspara{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.newspara h2{
+    width: 350px;
+    font-size: 35px;
+    text-align: center;
+}
+#firstname1{
+    width: 85%;
+    padding: 15px 0px 15px 15px;
+}
+#email1{
+    width: 85%;
+    padding:15px  0px 15px 15px;
+}
+#message1{
+    width: 85%;
+    padding: 15px 0px 60px 15px;
+    text-align: start;
+}
+.newspara button{
+        border: none;
+        background-color: #a3aa68;
+        color: antiquewhite;
+        width: 170px;
+        height: 30px;
+        border-radius: 30px;
+        padding: 5px;
+    }
+
+.mainfooter{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 49, 49);
+    color: white;
+}
+
+.foot1{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.foot2{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.foot3{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 45px;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+}
+.subfooter{
+    width: 100%;
+    text-align: right;
+    background-color: rgb(54, 49, 49);
+    padding: 0px 60px 0px 0px;
+}

@@ -1,0 +1,68 @@
+/* @media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+} */
+@media (max-width: 576px) {
+    input[type*="checkbox"] {
+      display: none;
+      opacity: 0;
+    }
+    .text {
+      display: none;
+    }
+    .menu{
+      display: block;
+      font-size: 50px;
+      position: absolute;
+    }
+    .text {
+      position: relative;
+    }
+    input:checked + .text {
+      display: block;
+      position: absolute;
+      width: 50%;
+      height: 100px;
+      top: 100px;
+      background-color: crimson;
+      color: khaki;
+      border: 3px solid black;
+      animation-name: jadu;
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+  
+    }
+    @keyframes jadu {
+      from {
+        margin-left: -200px;
+      }
+      to {
+        margin-left: 100px;
+      }
+    }
+    .text {
+      flex-direction: row !important;
+    }
+    .grp1 {
+      flex-direction: column;
+      gap: 25px;
+    }
+    .text1,
+    .grp2-1,
+    .grp4-1,
+    .grp3, .card {
+      width: 100%;
+      text-align: center;
+    }
+    h1, h4, h1 + p, .main-text {
+      padding: 0px 0px 10px 0px;
+    }
+  
+    .header-wrapper {
+      padding-bottom: 50px;
+    }
+  }

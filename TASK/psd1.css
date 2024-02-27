@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grp1{
+    background-image: url(../images/foodpsdback.png) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+}
+.nav{
+    
+    height: 85px;
+    background-color: #21243d;
+    display: flex;
+    justify-content: space-between; 
+    align-items:center ;
+}
+
+.nav a{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.im2{
+    width: 30px;
+    height: 30px;
+}
+.grp1-1{
+    width: 50%;
+    margin-left: 40px;
+}
+.grp1-1 h1{
+font-size: 125px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+}
+.grp1-1 p{
+ margin-top: 20px;
+font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+}
+.grp1-1 button,.grp3-2 button,.grp5-1 button{
+width:250px;
+height: 55px;
+border-radius: 33px;
+background-color: #21243d;
+font-size: 25px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+margin-top: 30px;
+}
+.grp2{
+    background-image: url(../images/cakeback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #21243d;
+    height: 600px;
+
+}
+.grp2-1 h1{
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+}
+.grp2-1 p{
+margin: 20px auto;
+width: 50%;
+font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+text-align: center;
+}
+.grp2-2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.card1 h1,.card2 h1,.card3 h1{
+    margin-top: 20px;
+font-size: 28px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+}
+.card1 p,.card2 p,.card3 p{
+font-size: 17px;
+color: #ffffff;
+font-weight: 400;
+text-align: center;
+}
+.img1{
+    background-image: url(../images/cake1.png);
+}
+.img2{
+    background-image: url(../images/cake2.png);
+}
+.img3{
+    background-image: url(../images/cake3.png);
+}
+.img1,.img2,.img3{
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+.grp3,.grp5{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around;
+    background-color: #ffd17e;
+    
+}
+.grp3-1{
+    background-image: url(../images/cake1.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+.grp3-2 h1,.grp5-1 h1{
+font-size: 75px;
+color: #21243d;
+font-weight: 700;
+
+}
+.grp3-2 p,.grp5-1{
+    margin-top: 30px;
+    width: 500px;
+font-size: 30px;
+color: #21243d;
+font-weight: 400;
+}
+.grp4{
+    background-color: #21243d;
+    height: 500px;
+}
+.grp4-1 h1{
+padding-top: 30px;
+font-size: 62px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+}
+.grp4-1 p{
+width: 50%;
+font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+margin: 20px auto;
+text-align: center;
+}
+.grp4-2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.circle{
+    border: 3px solid #ffffff;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+.circle h1{
+font-size: 75px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+margin-top: 25px;
+}
+.circle h2{
+font-size: 42px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+}
+.grp5-2{
+    background-image: url(../images/cake2.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+.grp6{
+    background-color: #21243d;
+    height: 500px;
+    
+}
+.grp6-3{
+ padding-top: 30px;
+}
+.grp6-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(../images/lady.png);
+    background-size: cover;
+}
+.grp6-2 p{
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.grp6-2 h5{
+    font-size: 45px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+}
+.grp7{
+    background-color: #ffd17e;
+}
+.grp7 h1{
+padding-top: 70px;
+font-size: 75px;
+color: #21243d;
+font-weight: 700;
+text-align: center;
+}
+.grp7 p{
+padding-top: 20px;
+width: 80%;
+margin: auto;
+font-size: 30px;
+color: #21243d;
+font-weight: 400;
+text-align: center;
+}
+.grp7-1{
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+.grp7-1 button{
+font-size: 25px;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+width: 222px;
+height: 65px;
+border-radius: 33px;
+background-color: #21243d;
+margin-top: 50px;
+margin-left: -70px;
+position: absolute;
+}
+.email{
+    margin:50px  auto;
+    width: 500px;
+    height: 65px;
+    border-radius: 33px;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
